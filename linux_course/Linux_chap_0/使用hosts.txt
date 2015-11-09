@@ -1,0 +1,5 @@
+Windows:
+    在开始菜单那里找到“记事本”，或者搜索notepad.exe，然后右键“以管理员权限打开”，然后在记事本菜单上打开C:\Windows\System32\Drivers\etc\hosts(此处要把文件格式从txt改成所有文件才可以看见)。然后把附件的内容copy上去，保存即可。
+
+Linux:
+    sudo gedit /etc/hosts  覆盖内容，保存

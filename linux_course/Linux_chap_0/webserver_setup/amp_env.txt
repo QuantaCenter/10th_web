@@ -1,0 +1,13 @@
+ubuntu 14.10 安装LAMP
+在root用户权限下安装apache+mysql+php环境
+
+网站根目录在/var/www/html
+mysql配置文件my.cnf在/etc/mysql/my.cnf
+apache配置文件apache2.conf在/etc/apache2/apache2.conf
+php配置文件php.ini在/etc/php5/apache2/php.ini
+
+apache的操作：
+/etc/init.d/apache2 [start/restart/stop]
+
+mysql的操作：
+mysql -u root -p
