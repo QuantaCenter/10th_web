@@ -91,16 +91,28 @@
 			<td>磁盘占用情况，默认单位为KB</td>
 		</tr>
 		<tr>
-			<td>date</td>
-			<td>date [格式化参数，请自行搜索]</td>
-			<td>-</td>
-			<td>日期</td>
-		</tr>
-		<tr>
 			<td>df</td>
 			<td>df [文件]</td>
 			<td>默认为整个文件系统的硬盘信息，加了文件参数表示查询该文件所在的磁盘分区信息，可以配合ln -s使用，判断是否在同一个分区</td>
 			<td>系统硬盘信息(不能查到Windows的)</td>
+		</tr>
+		<tr>
+			<td>lsof</td>
+			<td>lsof</td>
+			<td>lsof -i:port 表示查看该端口的占用情况，lsof -p 进程id，查看该进程的具体数据</td>
+			<td>用于查看你进程打开的文件，打开文件的进程，进程打开的端口(TCP、UDP)。找回/恢复删除的文件。</td>
+		</tr>
+		<tr>
+			<td>kill</td>
+			<td>kill [进程号]</td>
+			<td>-</td>
+			<td>用来删除执行中的程序或工作</td>
+		</tr>
+		<tr>
+			<td>date</td>
+			<td>date [格式化参数，请自行搜索]</td>
+			<td>-</td>
+			<td>日期</td>
 		</tr>
 		<tr>
 			<td>ln</td>
